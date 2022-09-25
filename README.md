@@ -15,3 +15,6 @@ It is not sufficient to just fit a model - the model must be analysed to find th
 
 
 ![CHENNAI HOUSE PRICE PREDICTION PRESENTATION DEPLOY](https://user-images.githubusercontent.com/99380142/192132266-c06ca857-b043-43b4-82c1-a44613acd5b9.png)
+
+![RESULT](https://user-images.githubusercontent.com/99380142/192132321-5d79fcac-c7f1-4c8e-b1df-5406b25b8cc3.png)
+
