@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 st.title("CHENNAI HOUSE PRICE PREDICTION")
@@ -28,6 +27,7 @@ x_train, x_test, y_train, y_test = train_test_split(dfT[train].values,
 std = StandardScaler()
 x_train = std.fit_transform(x_train)
 x_test = std.transform(x_test)
+
 # BEST MODEL
 import xgboost as xgb
 import warnings
