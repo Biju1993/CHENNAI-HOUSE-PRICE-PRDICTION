@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 st.title("CHENNAI HOUSE PRICE PREDICTION")
 import pandas as pd
-dfT=pd.read_csv("C://Users//91971//PycharmProjects//pythonProject1//cleaned.csv")
+dfT=pd.read_csv("https://raw.githubusercontent.com/Biju1993/CHENNAI-HOUSE-PRICE-PRDICTION/main/cleaned.csv")
 #ENCODE
 dfT["AREA"] = dfT["AREA"].map({'KARAPAKKAM': 0, 'ANNA NAGAR': 5, 'ADYAR': 1, 'CHROMPET': 2, 'KK NAGAR': 4, 'T NAGAR': 6, 'VELACHERY': 3})
 dfT["PARK_FACIL"] = dfT["PARK_FACIL"].map({'No': 0, 'Yes': 1})
