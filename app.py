@@ -1,4 +1,6 @@
 import pickle
+import streamlit as st
+import os
 load_model=pickle.load(open('https://github.com/Biju1993/CHENNAI-HOUSE-PRICE-PRDICTION/blob/main/xgd.sav', 'rb'))
 q1,q2=st.columns(2)
 q1.video("https://www.youtube.com/watch?v=5IvQ3fYKnfM")
